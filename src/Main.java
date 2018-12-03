@@ -7,6 +7,8 @@ public class Main {
         int number = scan.nextInt();
         System.out.println("Mothallah love this project");
         System.out.printf("Look, Mothallah enter this digits: %d\n", number);
+        OutputMath.outputSqrt((double) number);
+        System.out.printf("Look, Mothallah enter this digits: %d\n", number);
         for(int i = 0; i < 10; i++){
             System.out.printf("Now, this is %d\n", i);
         }
